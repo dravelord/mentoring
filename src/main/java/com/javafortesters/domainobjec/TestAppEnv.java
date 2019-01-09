@@ -6,8 +6,8 @@ public class TestAppEnv {
 
     public static final String PORT = "67";
 
-    public static void getUrl(){
-
+    public static String getUrl(){
+        return "htttp://" + DOMAIN + ":" + PORT;
     }
 
 
